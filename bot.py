@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 import requests
 
 load_dotenv()
-TOKEN = os.getenv("DISCORD_TOKEN", "").strip()
+TOKEN = os.getenv("DISCORD_TOKEN", "MTU0MzQ2MTA2NzYyNjI1NDQyOQ.GSpDvQ.xZAeS6JsU-otk5CjZLxcxen68n9JHYAKjZqIi8").strip()
 DB_PATH = os.getenv("DATABASE_PATH", "loja.db")
 MP_ACCESS_TOKEN = os.getenv("MP_ACCESS_TOKEN", "").strip()
 PUBLIC_BASE_URL = os.getenv("PUBLIC_BASE_URL", "").strip().rstrip("/")
